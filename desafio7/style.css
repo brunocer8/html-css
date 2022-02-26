@@ -1,11 +1,12 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
-    background-image: linear-gradient(to top, rgb(137, 207, 207), rgb(108, 163, 163));
-    height: 80px;
     width: 100%;
     padding: 20px 15px 0px 3px; 
     margin-top: -10px;
-    margin-left: -10px;  
+    margin-left: 0px;
     margin-bottom: 50px;
 }
 
@@ -34,7 +35,9 @@ header > a{
 }
 
 nav{
-    display: inline;
+    display: flex;
+    background-image: linear-gradient(to top, rgb(137, 207, 207), rgb(108, 163, 163));
+    height: 80px;
 }
 
 nav > a{
