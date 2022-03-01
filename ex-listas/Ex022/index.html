@@ -6,17 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste Imagens</title>
     <style>
-        
+        .quadrado{
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 300px;
+            width: 300px;
+            display: inline-block;
+        }
+        #q1{
+            background-color: crimson;
+        }
+        #q2{
+            background-image: linear-gradient(to bottom, rgb(62, 156, 233), rgb(230, 67, 129));
+        }
+        #q3{
+            background-image: url('imagens/pattern001.png');
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div class="quadrado" id="q1">
 
     </div>
-    <div>
+    <div class="quadrado" id="q2">
 
     </div>
-    <div>
+    <div class="quadrado" id="q3">
 
     </div>
 </body>
